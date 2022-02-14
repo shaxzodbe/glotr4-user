@@ -3,7 +3,7 @@
 .header {
   background: $light;
   width: 100%;
-  height: 100%;
+  height: 100% !important;
   padding: 0 0.75rem;
   font-weight: bold;
   @include breakpoint(md) {
@@ -131,7 +131,8 @@
 
   &__mobile {
     height: 62px;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     right: 0;
     left: 0;
     bottom: 0;

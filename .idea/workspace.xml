@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="963f3f47-d4db-41f0-bb0f-a4d40a1c2781" name="Changes" comment="command build successfully changed" />
+    <list default="true" id="963f3f47-d4db-41f0-bb0f-a4d40a1c2781" name="Changes" comment="command build successfully changed">
+      <change afterPath="$PROJECT_DIR$/src/pages/PageZero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.module.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +95,8 @@
       <workItem from="1644813982812" duration="5399000" />
       <workItem from="1644819823698" duration="250000" />
       <workItem from="1644820084892" duration="39000" />
+      <workItem from="1644820127742" duration="2606000" />
+      <workItem from="1644822745754" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="glotr4 user account was created successfully">
       <created>1644384505726</created>

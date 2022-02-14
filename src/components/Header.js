@@ -87,7 +87,7 @@ const Header = () => {
             </div>
             <div className={classes.header__mobile}>
                 <div className={classes.header__mobile__list}>
-                    <Link to="/page-one">
+                    <Link to="/page-zero">
                         <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M8 20v-5a4 4 0 018 0v1a1 1 0 11-2 0v-1a2 2 0 10-4 0v7H2V10.032l10-8.334 10 8.334V22h-7a1 1 0 110-2h5v-9.032l-8-6.666-8 6.666V20h4z"

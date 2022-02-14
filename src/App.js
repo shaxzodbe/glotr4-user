@@ -7,6 +7,7 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageCTA from "./pages/PageCTA";
 import PageFour from "./pages/PageFour";
+import PageZero from "./pages/PageZero";
 
 function App() {
     return (
@@ -14,6 +15,9 @@ function App() {
             <Switch>
                 <Route path="/" exact>
                     <Home/>
+                </Route>
+                <Route path="/page-zero">
+                    <PageZero/>
                 </Route>
                 <Route path="/page-one">
                     <PageOne/>
