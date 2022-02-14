@@ -1,0 +1,49 @@
+$Montserrat: "Montserrat", sans-serif;
+
+@font-face {
+  font-family: Montserrat;
+  src: local('$Montserrat-ExtraLight'),
+  url(../fonts/Montserrat-ExtraLight.ttf) format('truetype'), //200 normal
+  //url(../fonts/Montserrat-Regular.ttf) format('truetype'), //400 regular
+  //url(../fonts/Montserrat-SemiBold.ttf) format('truetype'), //600 normal
+  //url(../fonts/Montserrat-ExtraBold.ttf) format('truetype'), //800 normal
+  //url(../fonts/Montserrat-Black.ttf) format('truetype'); //900 normal
+}
+
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(161, 19, 24);
+$bg: rgb(244, 244, 255);
+
+//  fonts
+$body-size-base: 14px;
+
+//  line-height
+$line-height-base: 1.29;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 52px;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    // 768px
+    @media (min-width: 48em) {
+      @content;
+    }
+  }
+  @if $point == 564 {
+    // 500px
+    @media (max-width: 564px) {
+      @content;
+    }
+  }
+}
