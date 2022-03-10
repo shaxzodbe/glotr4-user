@@ -1,13 +1,12 @@
 $Montserrat: "Montserrat", sans-serif;
 
 @font-face {
-  font-family: Montserrat;
-  src: local('$Montserrat-ExtraLight'),
-  url(../fonts/Montserrat-ExtraLight.ttf) format('truetype'), //200 normal
-  //url(../fonts/Montserrat-Regular.ttf) format('truetype'), //400 regular
-  //url(../fonts/Montserrat-SemiBold.ttf) format('truetype'), //600 normal
-  //url(../fonts/Montserrat-ExtraBold.ttf) format('truetype'), //800 normal
-  //url(../fonts/Montserrat-Black.ttf) format('truetype'); //900 normal
+  font-family: 'Montserrat';
+  //src: url(../fonts/Montserrat-ExtraLight.ttf) format('truetype'); //200 normal
+  //src: url(../fonts/Montserrat-Regular.ttf) format('truetype'); //400 regular
+  src: url(../fonts/Montserrat-SemiBold.ttf) format('truetype'); //600 normal
+  //src: url(../fonts/Montserrat-ExtraBold.ttf) format('truetype'); //800 normal
+  //src: url(../fonts/Montserrat-Black.ttf) format('truetype'); //900 normal
 }
 
 
@@ -29,6 +28,7 @@ $spacing-lg: 32px;
 
 // border radius
 $borderRadius: 12px;
+$borderRadius1: 15px;
 
 // header height
 $headerHeight: 52px;
@@ -36,7 +36,7 @@ $headerHeight: 52px;
 @mixin breakpoint($point) {
   @if $point == md {
     // 768px
-    @media (min-width: 48em) {
+    @media (min-width: 768px) {
       @content;
     }
   }

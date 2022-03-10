@@ -1,14 +1,17 @@
-import React from "react";
+import React, {Fragment} from "react";
 import Header from "./Header";
+import UserAccount from "./UserAccount";
+import Footer from "./Footer";
 
-import classes from "./Layout.module.scss";
 
-const Layout = ({children}) => {
+const Layout = () => {
     return (
-        <>
+        <Fragment>
             <Header/>
-            <div className={classes.container}>{children}</div>
-        </>
+            <UserAccount />
+
+            <Footer />
+        </Fragment>
     );
 };
 

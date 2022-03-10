@@ -1,15 +1,63 @@
 @import "../assets/styles/variables.scss";
 
 .container {
-  height: calc(100vh - #{$headerHeight});
-  background: $light;
+  box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 1 0 auto;
+  padding: 0 12px;
+  margin: 24px auto 0;
+  width: 100%;
+  @include breakpoint(564) {
+    padding: 0 12px;
+  }
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  transition: 0.3s ease all;
+}
 
-  h2 {
-    padding: 0.75rem 1.5rem;
-    background: linear-gradient(220deg, $primary, rgba($primary, 0.5));
-    border-radius: $borderRadius calc(#{$borderRadius} * 10);
+.user__cabinet {
+  width: 100%;
+  max-width: 1472px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 216px;
+    width: 100%;
+
+    &__img {
+      padding: 0 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 14px;
+      overflow: hidden;
+      width: fit-content;
+
+
+      button {
+        height: 112px;
+        max-width: 112px;
+        background-color: #eff3f6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      p {
+        background-color: hsla(0, 0%, 100%, 0);
+        color: #005bff;
+      }
+    }
+  }
+
+  &__right {
+
   }
 }

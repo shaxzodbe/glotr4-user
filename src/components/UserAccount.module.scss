@@ -1,0 +1,15 @@
+@import "../assets/styles/variables.scss";
+
+.card__1 {
+  background-image: url("../assets/images/user-top.svg");
+}
+
+.section {
+  overflow-x: scroll;
+  div {
+    width: auto !important;
+  }
+}
+
+
+
