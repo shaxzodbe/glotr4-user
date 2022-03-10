@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="963f3f47-d4db-41f0-bb0f-a4d40a1c2781" name="Changes" comment="navbar position:fixed was changed">
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/user-blog-img.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/user-top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Recently.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserAccount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserAccount.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    <list default="true" id="963f3f47-d4db-41f0-bb0f-a4d40a1c2781" name="Changes" comment="daisyui was successfully added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +110,7 @@
       <workItem from="1645419068321" duration="1783000" />
       <workItem from="1646817376816" duration="69000" />
       <workItem from="1646817778868" duration="3474000" />
-      <workItem from="1646885613896" duration="9177000" />
+      <workItem from="1646885613896" duration="9976000" />
     </task>
     <task id="LOCAL-00001" summary="glotr4 user account was created successfully">
       <created>1644384505726</created>
@@ -169,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644823648105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="daisyui was successfully added">
+      <created>1646894855175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646894855175</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +186,8 @@
     <MESSAGE value="header successfully was created" />
     <MESSAGE value="command build successfully changed" />
     <MESSAGE value="navbar position:fixed was changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar position:fixed was changed" />
+    <MESSAGE value="daisyui was successfully added" />
+    <option name="LAST_COMMIT_MESSAGE" value="daisyui was successfully added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

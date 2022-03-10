@@ -4,16 +4,10 @@ const Recently = () => {
     return (
         <div>
             <h1>Recently Played</h1>
-            <div className="m-2 h-32 carousel rounded-box">
-                <div className="carousel-item card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-sm text-lg-base">Shoes!</h2>
-                        <p className="leading-none text-sm">If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm">Buy Now</button>
-                        </div>
-                    </div>
+            <div className="m-2 h-7 carousel rounded-box">
+                <div className="carousel-item w-full">
+                    <img src="https://api.lorem.space/image/game?w=256&h=400&hash=8B7BCDC2" className="w-full"
+                         alt="Tailwind CSS Carousel component" />
                 </div>
                 <div className="carousel-item w-full">
                     <img src="https://api.lorem.space/image/game?w=256&h=400&hash=500B67FB" className="w-full"
@@ -40,7 +34,16 @@ const Recently = () => {
                          alt="Tailwind CSS Carousel component" />
                 </div>
             </div>
-
+            <div className="card card-compact w-32 bg-base-100 shadow-xl">
+                <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                <div className="card-body">
+                    <h2 className="card-title text-sm text-lg-base">Shoes!</h2>
+                    <p className="leading-none text-sm">If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-actions justify-end">
+                        <button className="btn btn-primary text-sm">Buy Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
